@@ -1,0 +1,1 @@
+import{t as e}from"./index-DKi_AWWz.js";var t=`/puntal-alfa/assets/web-ifc-DaBphSR1.wasm`,n=null,r=null;function i(){return n?Promise.resolve(n):(r||=(async()=>{let r=new e;return await r.Init(e=>e===`web-ifc.wasm`?t:e),n=r,r})(),r)}export{i as getSharedIfcApi};
